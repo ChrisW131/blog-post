@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      background-color: hsl(36, 100%, 99%);
+      font-family: 'figtree', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      /* margin-top: 200px;
+      margin-bottom: 200px; */
+      /* background-color: hsl(0, 0%, 100%); */
+    }
+
+    .keyword {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: hsl(240, 100%, 5%);
+      margin-bottom: 20px;
+    }
+
+    .date {
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: hsl(236, 13%, 42%);
+      margin-bottom: 20px;
+    }
+
+    .middle {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 48px;
+      color: hsl(240, 100%, 5%);
+      margin-bottom: 20px;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+    .bottom {
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: hsl(236, 13%, 42%);
+      margin-bottom: 20px;
+    }
+
+    .author {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      color: hsl(240, 100%, 5%);
+    }
+
+    .attribution {
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: hsl(236, 13%, 42%);
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .keyword, .date, .middle, .bottom, .author {
+      text-align: center;
+    }
+
+    .card {
+      background-color: hsl(0, 0%, 100%);
+      width: 350px;
+      border-radius: 15px;
+      
+    }
+  </style>
+</head>
+<body>
+<div class="main">
+
+  <div  class="card"> <img src="assets/images/illustration-article.svg" alt="article illustration">
+  </div>
+  <div class="keyword">Learning
+  </div>
+
+  <div class="date">Published 21 Dec 2023
+  </div>
+
+ <div class="middle">The HTML & CSS foundations
+ </div>
+
+ <div class="bottom"> These languages are the backbone of every website, defining structure, content, and presentation. </div>
+
+ <div class="author"> <img src="assets/images/image-avatar.webp" alt="avatar image"> Greg Hooper 
+ </div>
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
